@@ -64,8 +64,9 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_customer_email"
                     android:hint="Email"
-                    android:inputType="text"
+                    android:inputType="textEmailAddress"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_width="match_parent"
@@ -78,6 +79,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_customer_password"
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:layout_marginRight="10dp"
