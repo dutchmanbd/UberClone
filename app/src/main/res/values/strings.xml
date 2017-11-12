@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Uber Clone</string>
+    <string name="btn_main_rider">I am Rider</string>
+    <string name="btn_main_customer">I am Customer</string>
+</resources>
