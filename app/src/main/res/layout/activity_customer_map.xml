@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zxdmjr.com.uberclone.activities.CustomerMapActivity"
+    >
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|end|right"
+        android:src="@drawable/ic_option"
+        app:backgroundTint="@color/colorAccent"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_sign_out"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom|end|right"
+        android:src="@drawable/ic_sign_out"
+        app:backgroundTint="@color/colorAccent"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_request"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom|end|right"
+        android:src="@drawable/ic_request"
+        app:backgroundTint="@color/colorAccent"
+        />
+
+
+</FrameLayout>

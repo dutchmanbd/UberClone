@@ -141,7 +141,7 @@ public class RiderLoginActivity extends AppCompatActivity {
 
     private void gotoMapActivity() {
 
-        Intent intent = new Intent(this, MapActivity.class);
+        Intent intent = new Intent(this, RiderMapActivity.class);
         startActivity(intent);
         finish();
         return;

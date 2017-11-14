@@ -142,7 +142,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
 
     private void gotoMapActivity() {
 
-        Intent intent = new Intent(this, MapActivity.class);
+        Intent intent = new Intent(this, CustomerMapActivity.class);
         startActivity(intent);
         finish();
         return;
